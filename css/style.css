@@ -154,6 +154,7 @@
     font-weight: 400;
     line-height: 20px;
     text-align: left;  
+    text-decoration: none;
 }
 .links:hover{
     color: #FF7F50;
@@ -273,6 +274,19 @@
   .welcome-ctn{
     background-color: #F4EFE9;
     padding: 96px 24px;
+    width: 100%;
+}
+    
+.welcome-image-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.welcome-images{
+    height: 100%;
 }
 
 .welcome{
@@ -1258,13 +1272,23 @@ footer{
         flex-direction: column-reverse;
     }
 
-      .welcome-ctn{
+    .welcome-ctn{
         background-color: #F4EFE9;
         padding: 34px;
+        width: 100%;
     }
 
     .welcome{
         margin-bottom: 20px;
+    }
+        
+    .welcome-image-ctn{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
     }
 
     .welcome-text{
@@ -1348,10 +1372,12 @@ footer{
     }
 
     .welcome-image-ctn{
-        height: 230px;
+        height: 250px;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
     }
 
     .welcome-images{
@@ -2281,6 +2307,15 @@ footer{
         background-color: #F4EFE9;
         padding: 24px;
         width: 60%;
+    }
+        
+    .welcome-image-ctn{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
     }
 
     .welcome{
@@ -3321,11 +3356,24 @@ footer{
     .inverse{
         display: flex;
         flex-direction: row;
+        height: 1100px;
     }
 
     .welcome-ctn{
         background-color: #F4EFE9;
         padding: 80px;
+        width: 60%;
+        height: 100%;
+    }
+        
+    .welcome-image-ctn{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        height: 100%;
     }
 
     .welcome{
