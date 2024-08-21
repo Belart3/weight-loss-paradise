@@ -145,6 +145,20 @@
     display: none;
 }
 
+.links{
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Roma';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;  
+}
+.links:hover{
+    color: #FF7F50;
+}
+
 .line{
     background-size: cover;
     background-repeat: no-repeat;
@@ -922,7 +936,7 @@
 
 .FAQ__answer{
     font-family: 'Neuzeit-Grotesk-Light';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     text-align: left;     
@@ -938,6 +952,11 @@
 
 .accordion-button:not(.collapsed):after{
     background-image: url(../images/arrow-up-right-03.svg);
+
+}
+
+.accordion-button:not(.collapsed){
+    color: #FF7F50;
 
 }
 
@@ -1378,12 +1397,13 @@ footer{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 0px;
         margin-bottom: 32px;
+        width: 100%;
+        gap: 0px;
     }
 
     .program-images{
-        height: 250px;
+        height: 300px;
         width: 100%;
     }
 
@@ -1962,7 +1982,7 @@ footer{
 
     .FAQ__answer{
         font-family: 'Neuzeit-Grotesk-Light';
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 500;
         line-height: 30px;
         text-align: left;     
@@ -1979,6 +1999,10 @@ footer{
     .accordion-button:not(.collapsed):after{
         background-image: url(../images/arrow-up-right-03.svg);
 
+    }
+    .accordion-button:not(.collapsed){
+        color: #FF7F50;
+    
     }
 
     .all-FAQ{
@@ -2972,7 +2996,7 @@ footer{
 
     .FAQ__answer{
         font-family: 'Neuzeit-Grotesk-Light';
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 500;
         line-height: 30px;
         text-align: left;     
@@ -2988,6 +3012,11 @@ footer{
 
     .accordion-button:not(.collapsed):after{
         background-image: url(../images/arrow-up-right-03.svg);
+
+    }
+    
+    .accordion-button:not(.collapsed){
+        color: #FF7F50;
 
     }
 
@@ -3426,11 +3455,12 @@ footer{
         justify-content: center;
         align-items: center;
         margin-bottom: 32px;
+        width: 100%;
         gap: 0px;
     }
 
     .program-images{
-        height: 250px;
+        height: 450px;
         width: 100%;
     }
 
@@ -3592,7 +3622,7 @@ footer{
     }
 
     .luxury__image{
-        height: 350px;
+        height: 300px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -4002,7 +4032,7 @@ footer{
 
     .FAQ__answer{
         font-family: 'Neuzeit-Grotesk-Light';
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 500;
         line-height: 30px;
         text-align: left;     
@@ -4018,6 +4048,11 @@ footer{
 
     .accordion-button:not(.collapsed):after{
         background-image: url(../images/arrow-up-right-03.svg);
+
+    }
+    
+    .accordion-button:not(.collapsed){
+        color: #FF7F50;
 
     }
 
