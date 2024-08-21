@@ -932,12 +932,12 @@
 }
 
 .accordion-button::after{
-    background-image: url(/images/plus.png);
+    background-image: url(../images/plus.png);
     
 }
 
 .accordion-button:not(.collapsed):after{
-    background-image: url(/images/arrow-up-right-03.svg);
+    background-image: url(../images/arrow-up-right-03.svg);
 
 }
 
@@ -1972,12 +1972,12 @@ footer{
     }
 
     .accordion-button::after{
-        background-image: url(/images/plus.png);
+        background-image: url(../images/plus.png);
         
     }
 
     .accordion-button:not(.collapsed):after{
-        background-image: url(/images/arrow-up-right-03.svg);
+        background-image: url(../images/arrow-up-right-03.svg);
 
     }
 
@@ -2982,12 +2982,12 @@ footer{
     }
 
     .accordion-button::after{
-        background-image: url(/images/plus.png);
+        background-image: url(../images/plus.png);
         
     }
 
     .accordion-button:not(.collapsed):after{
-        background-image: url(/images/arrow-up-right-03.svg);
+        background-image: url(../images/arrow-up-right-03.svg);
 
     }
 
@@ -4011,12 +4011,12 @@ footer{
     }
 
     .accordion-button::after{
-        background-image: url(/images/plus.png);
+        background-image: url(../images/plus.png);
         
     }
 
     .accordion-button:not(.collapsed):after{
-        background-image: url(/images/arrow-up-right-03.svg);
+        background-image: url(../images/arrow-up-right-03.svg);
 
     }
 
