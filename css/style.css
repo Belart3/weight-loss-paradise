@@ -1536,7 +1536,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding: 32px;
+        padding: 0px;
     }
 
     .feature-text h4{
@@ -1556,6 +1556,14 @@ footer{
         line-height: 25px;
         text-align: left;    
         color: #404040;
+    }
+    
+    .feature-text h4, .feature-text p, .feature-text .button--orange:nth-child(even){
+        margin-left: 24px;
+    }
+
+    .feature-text h4, .feature-text p, .feature-text .button--orange:nth-child(odd){
+        margin-right: 24px;
     }
 
     .feature-text .black-line{
@@ -2575,7 +2583,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding: 32px;
+        padding: 0px;
     }
 
     .feature-text h4{
@@ -2595,6 +2603,14 @@ footer{
         line-height: 25px;
         text-align: left;    
         color: #404040;
+    }
+    
+    .feature-text h4, .feature-text p, .feature-text .button--orange:nth-child(even){
+        margin-left: 32px;
+    }
+
+    .feature-text h4, .feature-text p, .feature-text .button--orange:nth-child(odd){
+        margin-right: 32px;
     }
 
     .feature-text .black-line{
@@ -3626,7 +3642,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding: 32px;
+        padding: 0px;
     }
 
     .feature-text h4{
@@ -3646,6 +3662,14 @@ footer{
         line-height: 25px;
         text-align: left;    
         color: #404040;
+    }
+
+    .feature-text h4, .feature-text p, .feature-text .button--orange:nth-child(even){
+        margin-left: 32px;
+    }
+
+    .feature-text h4, .feature-text p, .feature-text .button--orange:nth-child(odd){
+        margin-right: 32px;
     }
 
     .feature-text .black-line{
